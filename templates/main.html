@@ -1,0 +1,229 @@
+<html>
+<link rel="stylesheet" href="{{url_for('static',filename = 'css/style.css')}}">
+<!-- <link rel="stylesheet" href="static/css/style.css"> -->
+
+
+<body style="background-image: url({{url_for('static', filename='img/menu.jpg')}})">
+    <style>
+        .sec1 {
+            margin-top: 250px;
+            margin-right: 150px;
+            float: right;
+            background-image: linear-gradient(white, green);
+            border-radius: 10px;
+        }
+    </style>
+    <div class="sec1">
+        <form method="POST">
+            <br>
+            <p style="color: black; background-color:black;">
+                <h2>ENTER PRODUCT</h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="p_name"
+                    value={{request.form.username}}><br>
+                <br><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <!-- <input type="submit" value="Submit"> -->
+                <button style="background-color :#4d94ff;" type='submit' name="button">BUY</button></a>
+            </p>
+        </form>
+    </div>
+    <table class="greenTable" style="height: 1137px;" width="440">
+        <thead>
+            <tr>
+                <th>PRODUCT</th>
+                <th>PRODUCT</th>
+                <th>PRODUCT</th>
+                <th>PRODUCT</th>
+            </tr>
+        </thead>
+        <!-- <tfoot>
+            <tr>
+                <td colspan="4">
+                    <div class="links"><a href="#">&laquo;</a> <a class="active" href="#">1</a> <a href="#">2</a> <a
+                            href="#">3</a> <a href="#">4</a> <a href="#">&raquo;</a></div>
+                </td>
+            </tr>
+        </tfoot> -->
+        <tbody>
+            <tr>
+                <td>
+                    <!-- <p>&nbsp;</p> -->
+                    <p>shrimp</p>
+                    <p>almonds</p>
+                    <p>avocado</p>
+                    <p>vegetables mix</p>
+                    <p>green grapes</p>
+                    <p>whole weat flour</p>
+                    <p>yams</p>
+                    <p>cottage cheese</p>
+                    <p>energy drink</p>
+                    <p>tomato juice</p>
+                    <p>low fat yogurt</p>
+                    <p>green tea</p>
+                    <p>honey</p>
+                    <p>salad</p>
+                    <p>mineral water</p>
+                    <p>salmon</p>
+                    <p>antioxydant juice</p>
+                    <p>frozen smoothie</p>
+                    <p>spinach</p>
+                    <p>olive oil</p>
+                    <p>burgers</p>
+                    <p>meatballs</p>
+                    <p>eggs</p>
+                    <p>nan</p>
+                    <p>chutney</p>
+                    <p>turkey</p>
+                    <p>milk</p>
+                    <p>&nbsp;</p>
+                    <p>&nbsp;</p>
+                    <p>&nbsp;</p>
+                    <p>&nbsp;</p>
+                    <p>&nbsp;</p>
+                    <p>&nbsp;</p>
+                    <p>&nbsp;</p>
+                    <p>&nbsp;</p>
+                    <p>&nbsp;</p>
+                    <p>&nbsp;</p>
+                    <p>&nbsp;</p>
+                    <p>&nbsp;</p>
+                    <p>&nbsp;</p>
+                    <p>&nbsp;</p>
+                </td>
+                <td>
+                    <!-- <p>&nbsp;</p> -->
+                    <p>french fries</p>
+                    <p>soup</p>
+                    <p>light cream</p>
+                    <p>shallot</p>
+                    <p>frozen vegetables</p>
+                    <p>spaghetti</p>
+                    <p>pet food</p>
+                    <p>cookies</p>
+                    <p>cooking oil</p>
+                    <p>champagne</p>
+                    <p>chocolate</p>
+                    <p>chicken</p>
+                    <p>oil</p>
+                    <p>fresh tuna</p>
+                    <p>tomatoes</p>
+                    <p>black tea</p>
+                    <p>extra dark chocolate</p>
+                    <p>protein bar</p>
+                    <p>red wine</p>
+                    <p>pasta</p>
+                    <p>pepper</p>
+                    <p>shampoo</p>
+                    <p>rice</p>
+                    <p>sparkling water</p>
+                    <p>ham</p>
+                    <p>body spray</p>
+                    <p>pancakes</p>
+                    <p>grated cheese</p>
+                    <p>white wine</p>
+                    <p>toothpaste</p>
+                    <p>whole wheat pasta</p>
+                    <p>&nbsp;</p>
+                    <p>&nbsp;</p>
+                    <p>&nbsp;</p>
+                    <p>&nbsp;</p>
+                    <p>&nbsp;</p>
+                    <p>&nbsp;</p>
+                    <p>&nbsp;</p>
+                    <p>&nbsp;</p>
+                    <p>&nbsp;</p>
+                    <p>&nbsp;</p>
+                    <p>&nbsp;</p>
+                </td>
+                <td>
+                    <p>fresh bread</p>
+                    <p>ground beef</p>
+                    <p>escalope</p>
+                    <p>herb &amp; pepper</p>
+                    <p>tomato sauce</p>
+                    <p>magazines</p>
+                    <p>strawberries</p>
+                    <p>strong cheese</p>
+                    <p>pickles</p>
+                    <p>cake</p>
+                    <p>hot dogs</p>
+                    <p>brownies</p>
+                    <p>cereals</p>
+                    <p>clothes accessories</p>
+                    <p>bug spray</p>
+                    <p>muffins</p>
+                    <p>light mayo</p>
+                    <p>gums</p>
+                    <p>soda</p>
+                    <p>cider</p>
+                    <p>corn</p>
+                    <p>yogurt cake</p>
+                    <p>mint</p>
+                    <p>butter</p>
+                    <p>asparagus</p>
+                    <p>french wine</p>
+                    <p>salt</p>
+                    <p>tea</p>
+                    <p>barbecue sauce</p>
+                    <p>mayonnaise</p>
+                    <p>&nbsp;</p>
+                    <p>&nbsp;</p>
+                    <p>&nbsp;</p>
+                    <p>&nbsp;</p>
+                    <p>&nbsp;</p>
+                    <p>&nbsp;</p>
+                    <p>&nbsp;</p>
+                    <p>&nbsp;</p>
+                    <p>&nbsp;</p>
+                    <p>&nbsp;</p>
+                </td>
+                <td>
+                    <!-- <p>&nbsp;</p>
+                    <p>&nbsp;</p> -->
+                    <p>chicken</p>
+                    <p>escalope</p>
+                    <p>pasta</p>
+                    <p>honey</p>
+                    <p>ground beef</p>
+                    <p>tomato sauce</p>
+                    <p>light cream</p>
+                    <p>whole wheat pasta</p>
+                    <p>milk</p>
+                    <p>burgers</p>
+                    <p>tomatoes</p>
+                    <p>spaghetti</p>
+                    <p>ground beef</p>
+                    <p>shrimp</p>
+                    <p>soup</p>
+                    <p>honey</p>
+                    <p>mineral water</p>
+                    <p>grated cheese</p>
+                    <p>pepper</p>
+                    <p>frozen vegetables</p>
+                    <p>frozen smoothie</p>
+                    <p>herb & pepper</p>
+                    <p>fromage blanc</p>
+                    <p>avocado</p>
+                    <p>olive oil</p>
+                    <p>cooking oil</p>
+                    <p>eggs</p>
+                    <p>fromage blanc</p>
+                    <p>pancakes</p>
+                    <p>chocolate</p>
+                    <p>&nbsp;</p>
+                    <p>&nbsp;</p>
+                    <p>&nbsp;</p>
+                    <p>&nbsp;</p>
+                    <p>&nbsp;</p>
+                    <p>&nbsp;</p>
+                    <p>&nbsp;</p>
+                    <p>&nbsp;</p>
+                    <p>&nbsp;</p>
+                    <p>&nbsp;</p>
+                    <p>&nbsp;</p>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</Body>
+
+</html>
