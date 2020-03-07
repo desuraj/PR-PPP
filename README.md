@@ -1,3 +1,3 @@
-# Project Title "Product Recommendation & Predict Product Positioning"
-# Designed for Super-Market 
-# Technology used:-Python, Flask, Machine Learning( Association Rule Learning), html, css, bootstrap
+Description: Designed for the Super-Markets to suggest the product to the customers and provide them the proper position of required product in particular Super-Market. 
+
+Technology used: Machine Learning, Flask, Python Html, CSS
